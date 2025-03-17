@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folding Birthday Card 💖</title>
+    <link rel="stylesheet" href="Birthdat.css">
+    <script defer src="Birthdat.js"></script>
+</head>
+<body>
+
+    <div class="card-container" id="card">
+        <div class="card">
+            <div class="front">
+                <h2>🎂 Birthday Wishesh ❤️</h2>
+                <p>Click to open</p>
+            </div>
+            <div class="inside">
+                <h2>Dear Pratik,</h2>
+                <p>You are my sunshine, my happiness, and my everything. 🌸</p>
+                <p>May your day be filled with love and laughter. 💖</p>
+                <p>Wishing you a fantastic year ahead! Love you! ❤️</p>
+                <p class="signature">Yours, Samiksha</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup for Additional Birthday Wish -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2>🎉 Happy Birthday  🎉</h2>
+            <p>My love, you make my world brighter every day! 💕</p>
+            <p>Wishing you all the happiness in the universe! ✨</p>
+            <p>Let's make beautiful memories together! 🎁</p>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
+    <!-- Second Popup with Animated Cake -->
+    <div class="popup" id="popup2">
+        <div class="popup-content">
+            <h2>🎂 Happy Birthday, My Love! 🎂</h2>
+            <div class="cake">
+                
+                <div class="candle"></div>
+            </div>
+            <button id="cutCake">Cut the Cake</button>
+        </div>
+        
+    </div>
+
+    <!-- Container for Falling Hearts -->
+    <div id="heart-container"></div>
+
+    <!-- Third Popup for Music -->
+<div class="popup" id="popup3">
+    <div class="popup-content">
+        <h2>🎶 Special Birthday Song for You! 🎶</h2>
+        <button id="playMusic">Play Music 🎵</button>
+        <button id="closePopup3">Close</button>
+    </div>
+</div>
+ <!-- Audio Element for Birthday Song -->
+<audio id="birthdaySong">
+    <source src="https://www.1happybirthday.com/download_song.php" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+
+</body>
+</html>
+
+
